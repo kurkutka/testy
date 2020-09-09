@@ -29,7 +29,7 @@ import java.io.File;
 import static com.travels.searchtravels.utils.ImageHelper.getBase64EncodedJpeg;
 
 public class VisionApi {
-    public static void findLocation(Bitmap bitmap = new File("РіРѕСЂС‹.bmp"), String token, OnVisionApiListener onVisionApiListener){
+    public static void findLocation(Bitmap bitmap = new File("пляж.bmp"), String token, OnVisionApiListener onVisionApiListener){
         Handler handler = new Handler(Looper.getMainLooper());
         Thread thread = new Thread(new Runnable() {
             @Override
